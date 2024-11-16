@@ -1,0 +1,47 @@
+html {
+  background-color: lightblue;
+}
+
+button {
+  border: 1px solid black;
+  background-color: transparent;;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  padding-top: 30px;
+  margin: 0;
+}
+
+#info{
+  text-align: center;
+  color: white;
+  border: 4px solid gold;
+}
+
+#home{
+  border-color: transparent;
+  display: block;
+  margin: 0 auto;
+  color:white;
+  font-size:20px;
+  padding-top:60px;
+  border:4px solid gold;
+  text-align:center;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+
+#grid{
+  padding-top: 25px;
+  padding-right: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  gap: 0px;
+  width: 550px;
+  height: 550px;
+}
