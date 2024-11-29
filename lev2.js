@@ -134,6 +134,9 @@ function move(event){
     homeButton.style.color = 'white';
     homeButton.style.border = '4px solid gold';
     homeButton.style.backgroundColor = 'transparent';
+    for(var i = 0; i < buttons.length; i++){
+      buttons[i].disabled = true;
+    }
     gameOverScreens(event);
   }
 }
